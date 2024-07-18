@@ -13,6 +13,6 @@ customer_ids = ["C001", "C002", "C003", "C002", "C001", "C004"]
 # Expected Outcome: A set of unique customer IDs, ensuring no duplicates. 
 # For instance, `{'C001', 'C002', 'C003', 'C004'}`. ---
 
-unique_ids = list(customer_ids)
+unique_ids = set(customer_ids)
 
-print(f"Unique Ids {unique_ids}")
+print(unique_ids)
